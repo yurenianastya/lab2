@@ -15,7 +15,7 @@ int main()  {
     printf("Argument value = MIN value\n");
     double res;
 
-    for(double x=MIN; x<=MAX+step;x+=step){
+    for(double x=MIN; x<=MAX+step/2;x+=step){
         if(x<7){
             res = log10(x*log(x)+sin(x));
             printf("%f - ", x);
